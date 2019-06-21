@@ -13,6 +13,7 @@
 // Assignment 1.3
 /*
  Sign in the GitHub account, and then click the plus sign to select a new repository. Within the new creating empty repository, will get a URL.
- Back to Git, apply "git remote" command along with GitHub URL then press enter. After that, the remote has been created.
- To check the result, could leverage "git remote -v" command. The output will show both the URL, where fetching data from and pushing data to.
+ Back to terminal, use "cd" to get into the project file, and then use "git init" to create git repository. After that, use "git add" to add the file into the staging area, and "git commit" to create the commit.
+ Apply "git remote" command along with GitHub URL then press enter. After that, the remote has been created. To check the result, could leverage "git remote -v" command. The output will show both the URL, where fetching data from and pushing data to.
+ In the end, use "git push" to sync local repository and GitHub repository.
 */
