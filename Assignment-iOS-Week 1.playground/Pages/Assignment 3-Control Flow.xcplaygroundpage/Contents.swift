@@ -4,7 +4,17 @@ for members in lottoNumbers[3...5] {
     print(members)
 }
 
-// Assignment 3.2 & 3.3
+// Assignment 3.2 
+for number in 6...11 {
+    print (number-1)
+}
+
+for Num in [5, 4, 3] {
+    print (Num * 2)
+}
+
+
+// Assignment & 3.3
 var x = 5
 while x <= 10 {
     print(x)
@@ -16,6 +26,12 @@ while y >= 6 {
     print(y)
     y -= 2
 }
+
+/*
+ Difference:
+ while loop: In a standard while loop, the condition that we provide is checked first, then the code in the body is executed
+ repeat-while loop: In a repaeat-while loop, the statements in the body are executed first, then the condition is evaluated
+*/
 
 // Assignment 3.4
 var X = 5
