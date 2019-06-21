@@ -15,12 +15,15 @@ print(myFriends)
 /*
  Apply index 0 to get the first content of the array out
 */
+myFriends[0]
 
 // Assignment 3.8
 /*
  First, apply the method of "count" to get the total number of content in the array.
  Then, leverage index number to get the last content in the array.
 */
+myFriends.count
+myFriends[3]
 
 // Assignment 3.9 - 3.11
 var myCountryNumber: [String: Int] = ["US": 1, "GB": 44, "JP": 81]
