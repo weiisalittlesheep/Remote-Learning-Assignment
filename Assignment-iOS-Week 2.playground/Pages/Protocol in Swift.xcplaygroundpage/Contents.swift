@@ -16,6 +16,7 @@ protocol ToolMan {
 
 struct Engineer: ToolMan {
     func fixComputer() {
+        
     }
 }
 

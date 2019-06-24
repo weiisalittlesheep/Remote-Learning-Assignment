@@ -1,4 +1,4 @@
-enum GuessNumberGameError {
+enum GuessNumberGameError: Error {
     case wrongNumber
 }
 
@@ -7,7 +7,6 @@ class GuessNumberGame {
     func guess(number: Int) throws {
         guard number == targetNumber else {
             throw GuessNumberGameError.wrongNumber
-            
         }
         print("Guess the right number: \(targetNumber)")
         
